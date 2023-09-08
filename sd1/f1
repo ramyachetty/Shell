@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Enter a Number"
+echo
+read number
+
+if [ $number -ge 45 ]
+then
+ if [ $number -le 55 ] 
+then
+echo "$number is between the range 45 to 55"
+else
+echo "$number is not between the range 45 to 55"
+fi
+fi

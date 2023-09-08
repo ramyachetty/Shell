@@ -1,0 +1,4 @@
+#!/bin/bash
+#
+echo "The number of lines present in file is"
+a=$ wc -l f6

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Enter 2 strings"
+read a
+read b
+if [ $a == $b ]
+then
+ echo "Both strings are sam"
+else
+echo "Both are diffeent"
+fi
